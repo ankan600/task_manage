@@ -1,0 +1,52 @@
+
+    .main {
+        height: 100%;
+    }
+
+    .left_bar {
+        width: 250px;
+        background-color: black;
+    }
+
+    .header_left {
+        width: 250px;
+    }
+
+    .header_right {
+        width: calc(100% - 250px);
+    }
+
+    .main_content {
+        width: calc(100% - 250px);
+        height: 100%;
+    }
+
+    
+
+    .card {
+        border: none !important;
+    }
+
+    .header {
+        background-color: rgba(19, 135, 163, 1);
+    }
+
+    .navbar-brand {
+        font-size: 25px;
+        font-weight: 500;
+        background-image: linear-gradient(to left, #fefdfe, #d1acf5);
+        color: transparent;
+        background-clip: text;
+        radial-gradient(circle, #553c9a, #ee4b2b);
+        -webkit-background-clip: text;
+    }
+
+    .main_content {
+        background-color: rgb(201, 228, 253)
+    }
+    .card-body{
+        overflow-y: auto;
+    }
+    .hidden {
+        display: none;
+    }
